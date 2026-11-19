@@ -1,0 +1,31 @@
+[2026-11-18 15:08:20] Estructura de carpetas verificada/creada (data/txt, data/csv, data/json)
+[2026-11-18 15:08:20] Programa iniciado
+[2026-11-18 15:09:03] Generados 50 registros aleatorios
+[2026-11-18 15:09:07] Generados 50 registros aleatorios
+[2026-11-18 15:09:13] Generados 50 registros aleatorios
+[2026-11-18 15:09:26] Estructura de carpetas verificada/creada (data/txt, data/csv, data/json)
+[2026-11-18 15:09:26] Programa iniciado
+[2026-11-18 15:10:11] Estructura de carpetas verificada/creada (data/txt, data/csv, data/json)
+[2026-11-18 15:10:11] Programa iniciado
+[2026-11-18 15:11:36] Programa finalizado
+[2026-11-18 15:12:41] Estructura de carpetas verificada/creada (data/txt, data/csv, data/json)
+[2026-11-18 15:12:41] Programa iniciado
+[2026-11-18 15:13:00] Generados 50 registros aleatorios
+[2026-11-18 15:13:19] Archivo movido: datos.txt -> data\txt\datos.txt
+[2026-11-18 15:13:19] Archivo movido: datos.csv -> data\csv\datos.csv
+[2026-11-18 15:13:19] Archivo movido: datos.json -> data\json\datos.json
+[2026-11-18 15:13:36] Conexión a MongoDB Atlas exitosa
+[2026-11-18 15:13:36] Validación: 50 válidos, 0 inválidos
+[2026-11-18 15:13:40] MongoDB: 50 registros insertados en signos_vitales
+[2026-11-18 15:18:00] Archivo movido: resultados_mongo.json -> data\json\resultados_mongo.json
+[2026-11-18 15:18:00] MongoDB: consultas ejecutadas y exportadas
+[2026-11-18 15:19:51] MongoDB: consulta por ID ID-001
+[2026-11-18 15:20:21] Validación: 50 válidos, 0 inválidos
+[2026-11-18 15:20:31] Programa finalizado
+[2026-11-18 15:28:02] Estructura de carpetas verificada/creada (data/txt, data/csv, data/json)
+[2026-11-18 15:28:02] Programa iniciado
+[2026-11-18 15:28:06] Conexión a MongoDB Atlas exitosa
+[2026-11-18 15:28:06] Archivo movido: resultados_mongo.json -> data\json\resultados_mongo.json
+[2026-11-18 15:28:06] MongoDB: consultas ejecutadas y exportadas
+[2026-11-18 15:29:56] MongoDB: consulta por ID ID-001
+[2026-11-18 15:30:20] Programa finalizado
