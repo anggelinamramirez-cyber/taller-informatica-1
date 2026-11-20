@@ -6,18 +6,18 @@ organización con `pathlib`/`shutil`, log y almacenamiento en MongoDB Atlas.
 
 ## Formato de los registros
 
-|Campo|Formato|Ejemplo|
-|-|-|-|
-|id|`ID-###`|ID-001|
-|fr (edad)|`## Años`|18 Años|
-|fc|`###ppm`|090ppm|
-|spo2|`##%`|95%|
+| Campo | Formato | Ejemplo |
+|-------|---------|---------|
+| id | `ID-###` | ID-001 |
+| fr (edad) | `## Años` | 18 Años |
+| fc | `###ppm` | 090ppm |
+| spo2 | `##%` | 95% |
 
 ## Instalación
 
 ```bash
 pip install -r requirements.txt
-export MONGO\_URI="mongodb+srv://USUARIO:CLAVE@cluster.mongodb.net/"   # Windows: set MONGO\_URI=...
+export MONGO_URI="<tu_cadena_de_conexion_de_atlas>"   # En Windows (CMD): set MONGO_URI=...
 python main.py
 ```
 
@@ -27,7 +27,7 @@ python main.py
 main.py
 data/txt/datos.txt
 data/csv/datos.csv
-data/json/datos.json, resultados\_mongo.json
+data/json/datos.json, resultados_mongo.json
 log.txt
 ```
 
@@ -39,8 +39,8 @@ log.txt
 4. Exportar TXT, CSV y JSON (se mueven automáticamente a `data/`)
 5. Importar JSON
 6. Validar datos
-7. MongoDB: insertar validados en la colección `signos\_vitales`
-8. MongoDB: promedio de FC y documentos con SpO2 < 94 → `resultados\_mongo.json`
+7. MongoDB: insertar validados en la colección `signos_vitales`
+8. MongoDB: promedio de FC y documentos con SpO2 < 94 → `resultados_mongo.json`
 9. MongoDB: consultar por ID
 
 ## Autor
