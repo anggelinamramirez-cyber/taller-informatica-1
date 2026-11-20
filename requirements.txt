@@ -1,1 +1,2 @@
+# Dependencia para conectar Python con MongoDB Atlas
 pymongo[srv]
